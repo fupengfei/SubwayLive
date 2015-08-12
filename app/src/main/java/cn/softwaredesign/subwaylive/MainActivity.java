@@ -18,6 +18,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
         gps = (Button)findViewById(R.id.gps);
         intent = new Intent(this,PositionActivity.class);
         gps.setOnClickListener(this);
+	// branch test
+
     }
 
     @Override
