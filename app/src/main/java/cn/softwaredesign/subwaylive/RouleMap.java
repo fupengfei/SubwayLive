@@ -45,6 +45,7 @@ public class RouleMap  implements RouteSearch.OnRouteSearchListener,View.OnClick
     }
 
     public void init() {
+    // testttttttt
         initView();
         route = new RouteSearch(context);
         route.setRouteSearchListener(this);
